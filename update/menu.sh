@@ -143,7 +143,7 @@ fi
 clear
 clear
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "            << Welcome To Autoscript - DrixyHostinger 2020 ->>                \E[0m" | lolcat
+echo -e "        << Welcome To Autoscript - DrixyHostinger 2020 ->>                \E[0m" | lolcat
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "  ${BLUE}• ${GREEN}Sever Uptime        ${NC}: $( uptime -p  | cut -d " " -f 2-10000 ) "
 echo -e "  ${BLUE}• ${GREEN}Current Time        ${NC}: $( date -d "0 days" +"%d-%m-%Y | %X" )"
