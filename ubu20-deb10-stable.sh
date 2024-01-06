@@ -26,7 +26,7 @@ clear;clear;clear
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo -e "  Dev > DrixyHostinger 2020${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  Auther : ${green} DrixyHostinger 2020 -® ${NC}${YELLOW}(${NC} ${green} ðŸ‡®ðŸ‡© DrixyHostinger 2020ðŸ‡®ðŸ‡©  ${NC}${YELLOW})${NC}"
+echo -e "  Auther : ${green} DrixyHostinger 2020 -® ${NC}${YELLOW}(${NC} ${green} © DrixyHostinger 2020  ${NC}${YELLOW})${NC}"
 echo -e " Â© Recode By My Self DrixyHostinger 2020 ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
@@ -83,7 +83,7 @@ gem install lolcat
 apt install wondershaper -y
 clear
 # REPO    
-    REPO="https://github.com/drixyhostingerr/sc/"
+    REPO="https://github.com/drixyhostingerr/dark/"
 
 ####
 start=$(date +%s)
@@ -236,7 +236,7 @@ clear
     echo -e "   .----------------------------------."
 echo -e "   |\e[1;32mPlease Select a Domain Type Below \e[0m|"
 echo -e "   '----------------------------------'"
-echo -e "     \e[1;32m1)\e[0m Menggunakan Domain Sendiri ( Recommended )"
+echo -e "     \e[1;32m1)\e[0m Menggunakan Domain Sendiri"
 echo -e "     \e[1;32m2)\e[0m Menggunakan Domain Random"
 echo -e "   ------------------------------------"
 read -p "   Please select numbers 1-2 or Any Button(Random) : " host
@@ -270,7 +270,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://github.com/drixyhostingerr/sc/REGISTRASI"
+izinsc="https://github.com/drixyhostingerr/dark/main/REGISTRASI"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
@@ -532,7 +532,7 @@ print_success "Password SSH"
 function udp_mini(){
 clear
 print_install "Memasang Service Limit IP & Quota"
-wget -q https://raw.githubusercontent.com/gemilangkinasih/Apex/ZX/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
+wget -q https://raw.githubusercontent.com/dark/main/config/fv-tunnel && chmod +x fv-tunnel && ./fv-tunnel
 
 # // Installing UDP Mini
 mkdir -p /usr/local/kyt/
