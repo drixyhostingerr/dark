@@ -176,7 +176,7 @@ echo -e "                      << INFORMASI VPS >>                    \E[0m" | l
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "  ${BLUE}• ${GREEN}Sever Uptime        ${NC}: $( uptime -p  | cut -d " " -f 2-10000 ) "
 echo -e "  ${BLUE}• ${GREEN}Current Time        ${NC}: $( date -d "0 days" +"%d-%m-%Y | %X" )"
-echo -e "  ${BLUE}• ${GREEN}Operating System    ${NC}: $( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g')( $(uname -m))"
+echo -e "  ${BLUE}• ${GREEN}Sistem Oprasi       ${NC}: UBUNTU 20.0 / DEBIAN 10"
 echo -e "  ${BLUE}• ${GREEN}Domain VPS          ${NC}: $( cat /etc/xray/domain )"
 echo -e "  ${BLUE}• ${GREEN}Slowdns Domain      ${NC}: $( cat /etc/xray/dns )"
 echo -e "  ${BLUE}• ${GREEN}Server IP           ${NC}: ${ipsaya}"
