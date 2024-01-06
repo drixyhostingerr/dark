@@ -185,7 +185,7 @@ echo -e "  ${BLUE}• ${GREEN}City                ${NC}: ${CITY}"
 echo -e "  ${BLUE}• ${GREEN}Ram                 ${NC}: ${uram}/${tram}GB"
 echo -e "  ${BLUE}• ${GREEN}CPU USAGE           ${NC}: ${cpu_usage}"
 echo -e "  ${BLUE}• ${GREEN}Clients Name        ${NC}: ${YELLOW}$Name ${NC}"
-echo -e "  ${BLUE}• ${GREEN}Script Exfire       ${NC}: ${YELLOW}$Exp (${NC}${RED} $dayleft Days ${NC}${YELLOW})${NC}"
+echo -e "  ${BLUE}• ${GREEN}Script Exfire       ${NC}: TIDAK DI KETAHUI !!!"
 echo -e "  ${BLUE}• ${GREEN}Developer           ${NC}: KlmpkVPN Tunneling ${NC}"
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                     << STATUS SERVICE >>                    \E[0m" | lolcat
